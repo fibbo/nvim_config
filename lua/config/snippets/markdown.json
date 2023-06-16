@@ -1,0 +1,7 @@
+{
+  "python_code": {
+    "prefix": "pc",
+    "body": ["```python\n$1\n```"],
+    "description": "Python Code"
+  }
+}

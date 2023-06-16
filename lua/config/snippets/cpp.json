@@ -1,0 +1,17 @@
+{
+  "include system": {
+    "prefix": "inc",
+    "body": ["#include <$1>"],
+    "description": "Include system header"
+  },
+  "include local": {
+    "prefix": "incp",
+    "body": ["#include \"$1\""],
+    "description": "Include project header"
+  },
+  "copyright zi": {
+    "prefix": "cright",
+    "body": ["// Copyright [2023$1] Zurich Instruments AG"],
+    "description": "Add copyright notice"
+  }
+}
